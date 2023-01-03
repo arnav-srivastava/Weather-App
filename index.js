@@ -16,7 +16,7 @@ let target = "mathura";
 // Function to fetch Data from Weather API
 const fetchData = async (target) => {
   try {
-    const url = `https://api.weatherapi.com/v1/current.json?key=5b27a6ef3547402582e62007222306&q=${target}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=3c6c6694a218446bbab135223230301&q=${target}`;
 
     const response = await fetch(url);
     const data = await response.json();
